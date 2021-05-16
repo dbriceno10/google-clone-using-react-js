@@ -161,6 +161,23 @@ main .main-buttons button:hover {
 }
 
 footer {
+    font-size: 1.4rem;
+}
+
+.country{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 50px;
+    background-color: #f2f2f2;
+}
+
+.country p {
+    color: #5f6368;
+    margin: 20px;
+}
+
+.likns {
     width: 100%;
     height: 50px;
     position: absolute;
@@ -168,31 +185,30 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    font-size: 1.4rem;
     background-color: #f2f2f2;
     border-top: 1px solid #e4e4e4;
 }
 
-footer ul {
+.likns ul {
     margin: 10px;
     list-style: none;
     display: flex;
     padding-left: 0;;
 }
 
-footer .footer-left {
+.likns .footer-left {
     justify-self: left;
 }
 
-footer .footer-right {
+.likns .footer-right {
     justify-self: right;
 }
 
-footer ul li a {
+.likns ul li a {
     margin: 10px;
     color: #5f6368;
 }
 
-footer ul li a:hover {
+.likns ul li a:hover {
     text-decoration: underline;
 }
